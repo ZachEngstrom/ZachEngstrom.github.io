@@ -16,7 +16,7 @@
 title: Zach Engstrom
 email: engstrom.zach@gmail.com
 description: This is the personal website of Zach Engstrom.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zachengstrom.github.io/" # the base hostname & protocol for your site
 twitter_username: https://twitter.com/zachy_je
 github_username:  ZachEngstrom
