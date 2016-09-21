@@ -1,1 +1,146 @@
-{{content}}
+<!DOCTYPE html>
+<html class=''>
+  <head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <style>
+      html,
+      body,
+      #content,
+      #menu,
+      .container-fluid,
+      .row {
+      height: 100%;
+      }
+      html {
+      overflow-y: hidden;
+      }
+      body {
+      overflow-y: hidden;
+      font-weight: 300;
+      }
+      @media (max-width: 767px) {
+      body {
+      margin-top: 3em;
+      padding-bottom: 3em;
+      }
+      }
+      a:hover, a:active {
+      text-decoration: none;
+      }
+      #menu {
+      background-color: #307fad;
+      background-image: -webkit-radial-gradient(circle, #368ec1, #2b7199);
+      background-image: radial-gradient(circle, #368ec1, #2b7199);
+      background-repeat: no-repeat;
+      border-top: .4em solid #ef4e57;
+      }
+      #menu-content h1 {
+      text-transform: uppercase;
+      }
+      #menu-content h1 a {
+      color: #81bbdc;
+      }
+      #menu-content small {
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      color: #81bbdc;
+      margin-bottom: 15PX;
+      }
+      #profile-pic {
+      width: 70%;
+      border: .35em solid #1a455e;
+      box-shadow: 0 0 .7em black;
+      }
+      #social,
+      #links {
+      margin-top: 1em;
+      }
+      #social a {
+      margin-left: 1em;
+      color: #81bbdc;
+      }
+      #social a:first-child {
+      margin-left: 0;
+      }
+      #social a:hover, #social a:focus {
+      color: #bddbed;
+      }
+      #links a,
+      #links .active {
+      font-family: 'Oswald', sans-serif;
+      color: #81bbdc;
+      letter-spacing: 2px;
+      margin-left: 1em;
+      }
+      #links a:hover, #links a:focus {
+      text-decoration: none;
+      color: #bddbed;
+      }
+      #menu-content h1 a:hover, #menu-content h1 a:focus {
+      text-decoration: none;
+      color: #bddbed;
+      }
+      #links .active {
+      color: #fff;
+      }
+      #content {
+      border-top: .4em solid #b0c26e;
+      overflow-y: auto;
+      }
+      #content header h1 {
+      border-bottom: 1px solid #dddddd;
+      }
+      .vertical-align {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      }
+      .navbar {
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 2px;
+      }
+      .panel {
+      border: none;
+      border-bottom: 1px solid #dddddd;
+      }
+      .panel .panel-header a {
+      color: rgba(0, 0, 0, 0.65);
+      text-decoration: none;
+      }
+      .panel .panel-header a:hover {
+      color: rgba(0, 0, 0, 0.5);
+      }
+      .panel .panel-body {
+      padding: 0;
+      }
+      .panel .panel-footer {
+      border: none;
+      padding: 1em 0;
+      background-color: #fff;
+      }
+      .panel .panel-footer a {
+      padding-left: .5em;
+      }
+      .panel .panel-footer a:first-child {
+      padding-left: 0;
+      }
+      .panel .panel-footer .label {
+      font-family: 'helvetica', sans-serif;
+      font-weight: normal;
+      font-size: 1em;
+      }
+      .panel .panel-footer .label-success:hover {
+      background-color: #8ca043;
+      }
+    </style>
+  </head>
+  <body>
+  {{content}}
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  </body>
+</html>
